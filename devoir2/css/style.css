@@ -1,0 +1,36 @@
+nav.menu-nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a {
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    text-decoration: none;
+    padding: 12.5px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav.menu-nav ul li.btn:hover a {
+    color: black;
+    transition: 0.3s all;
+}
+
+div#navig {
+    background-image: linear-gradient(to bottom right, rgb(136, 197, 197), rgb(59, 120, 155));
+    vertical-align: top;
+}
+
+footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: end;
+}
+
+div#main p.we {
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
